@@ -1,0 +1,13 @@
+Write a program that sums the numbers in an input file. Each line in the input file will contain one number along with many other characters.
+
+For example, given the an input file with the following contents:
+
+Each elephant in the zoo eats 125 pounds of food per day.
+My brother bought 6 apples at the Farmers' Market.
+193 member states make up the United Nations.
+
+The program should return:
+
+324
+
+Please write your program in a way that is tolerant of bad input. In addition, please include any test cases that you find appropriate.

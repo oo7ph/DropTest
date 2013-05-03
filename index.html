@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+	<meta charset="utf-8" />
+    <title>Drop Test</title>
+    
+    <!-- Bootstrap -->
+    <link href="styles/main.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/LAB.min.js"></script>
+    <script>
+	$LAB
+		.script('https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js')
+		.script('https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js')
+		.script('scripts/async.js')
+		.script('scripts/main.js')
+	</script>
+  </head>
+  <body>
+  	<div class="container">
+  		<div class="content">
+	  		<h1>Drag/Drop, One (or many) text files to calculate</h1>
+	  		<div class="drop-zone">
+	  			<div class='output'>?</div>
+	  		</div>
+	  		<!-- <div class="error-messages">
+	  			<p id="upload"><label>Drag & drop not supported, but you can still upload via this input field:<br><input type="file"></label></p>
+				<p id="filereader">File API & FileReader API not supported</p>
+			</div> -->
+			
+		</div>
+  	</div>
+  </body>
+</html>
